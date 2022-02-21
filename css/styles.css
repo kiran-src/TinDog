@@ -3,14 +3,28 @@
   color: white;
 }
 
-#features {}
+#features
+{
+  padding-top: 150px;
+  font-family: 'Montserrat', sans-serif, weight;
+}
 
-h1 {
+h1
+{
   font-family: 'Montserrat', sans-serif, weight;
   font-weight: 900;
 
   font-size: 3rem;
   line-height: 1.5;
+}
+
+h3
+{
+  font-weight: 900;
+}
+
+p{
+  color: #8f8f8f;
 }
 
 body{
@@ -53,5 +67,24 @@ body{
   padding-top: 5px;
 }
 
+.center
+{
+  text-align: center;
+  padding: 3rem 10rem;
+}
+
+.fa-solid
+{
+  color: #ef8172;
+}
+.fa-solid:hover
+{
+  color: #ff4c68;
+}
+
+.fa-xl
+{
+  height: 1200px;
+}
 /*font-family: 'Montserrat', sans-serif;
 font-family: 'Ubuntu', sans-serif;*/
