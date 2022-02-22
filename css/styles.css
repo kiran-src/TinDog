@@ -1,12 +1,11 @@
 #title {
   background-color: #FF4C68;
   color: white;
-  text-align: center;
 }
 
 #features
 {
-  padding-top: 150px;
+  padding-top: 5%;
   font-family: 'Montserrat', sans-serif, weight;
   background-color: white;
   z-index: 1;
@@ -34,11 +33,25 @@
   text-align: center;
 }
 
+#cta
+{
+  background-color: #FF4C68;
+  padding: 5% 10%;
+  color: white;
+  text-align: center;
+}
+
+#footer
+{
+  text-align: center;
+  padding-top: 5%;
+  color: grey;
+}
+
 h1
 {
   font-family: 'Montserrat', sans-serif, weight;
   font-weight: 900;
-
   font-size: 3rem;
   line-height: 1.5;
 }
@@ -61,6 +74,12 @@ p{
 
 body{
   font-family: 'Montserrat', sans-serif;
+}
+
+ul
+{
+  position:absolute;
+  right: 0;
 }
 
 .card
@@ -129,7 +148,7 @@ body{
 .center
 {
   text-align: center;
-  padding: 3rem 10rem;
+  padding: 5% 10%;
 }
 
 .fa-solid
@@ -163,6 +182,26 @@ body{
 .testimonial-text
 {
   min-height: 145px;
+}
+
+.footerrow
+{
+   width: 200px;
+   margin-left: auto;
+   margin-right: auto;
+   padding-bottom: 20px;
+}
+
+@media (max-width: 1020px)
+{
+  .test{
+    position: static;
+    transform: rotate(0);
+  }
+  #title
+  {
+    text-align: center;
+  }
 }
 /*font-family: 'Montserrat', sans-serif;
 font-family: 'Ubuntu', sans-serif;*/
