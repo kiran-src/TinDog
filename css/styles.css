@@ -1,6 +1,7 @@
 #title {
   background-color: #FF4C68;
   color: white;
+  text-align: center;
 }
 
 #features
@@ -9,11 +10,33 @@
   font-family: 'Montserrat', sans-serif, weight;
 }
 
+#testimonials
+{
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+
+}
+
+#press
+{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%
+}
+
 h1
 {
   font-family: 'Montserrat', sans-serif, weight;
   font-weight: 900;
 
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h2
+{
+  font-weight: 900;
   font-size: 3rem;
   line-height: 1.5;
 }
@@ -31,8 +54,21 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 
+.carousel-item
+{
+  padding: 7% 15%;
+}
+
+.controls{
+  padding: 0% 7%;
+}
+
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 10% 3% 20%;
+}
+
+.feat{
+  padding: 0% 15%;
 }
 
 .navbar-brand {
@@ -85,6 +121,20 @@ body{
 .fa-xl
 {
   height: 1200px;
+}
+
+.test-img
+{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+
+}
+
+.press-logo
+{
+  width: 15%;
+  margin: 20px 20px 50px;
 }
 /*font-family: 'Montserrat', sans-serif;
 font-family: 'Ubuntu', sans-serif;*/
